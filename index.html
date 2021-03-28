@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" >
+  <link rel="stylesheet" href="./assets/style.css" media="screen" charset="utf-8">
+</head>
+
+<body class="container">
+
+  <header class="heading">
+    <img class="heading__img" src="./assets/img/eisenhower-matrix.jpg" alt="Eisenhower matrix figure">
+    <a class="heading__link" href="https://goal-life.com/page/method/matrix-eisenhower"> Want more details?</a>
+  </header>
+
+  <main class="controls">
+
+    <section class="controls__new-task">
+      <label class="controls__task-label" for="controls__task-input">Add Item</label>
+      <input class="controls__task-input" type="text">
+      <button id="controls__add-button">Add</button>
+    </section>
+
+    <h3 class="controls__title">Todo</h3>
+    <ul id="controls__incomplete-tasks" class="controls__tasks-list">
+      <li class="controls__task-element">
+        <input type="checkbox">
+        <label class="controls__label">Pay Bills</label>
+        <input class="controls__task-input" type="text">
+        <button class="controls__button_edit">Edit</button>
+        <button class="controls__button_delete">
+          <img class="controls__button_img" src="./assets/img/remove.svg" alt="Remove icon">
+        </button> 
+      </li>
+
+      <li  class="controls__edit-mode">
+        <input type="checkbox">
+        <label class="controls__label">Go Shopping</label>
+        <input class="controls__task-input" type="text" value="Go Shopping" class="controls__edit-input">
+        <button class="controls__button_edit">Save</button>
+        <button class="controls__button_delete">
+          <img class="controls__button_img"  src="./assets/img/remove.svg" alt="Remove icon">
+        </button>
+      </li>
+
+    </ul>
+    <h3>Completed</h3>
+    <ul id="controls__completed-tasks" class="controls__tasks-list">
+      <li class="controls__task-element">
+        <input type="checkbox" checked>
+        <label class="controls__label">See the Doctor</label>
+        <input  class="controls__task-input" type="text">
+        <button class="controls__button_edit">Edit</button>
+        <button class="controls__button_delete">
+          <img class="controls__button_img" src="./assets/img/remove.svg" alt="Remove icon">
+        </button>
+      </li>
+    </ul>
+  </main>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
+
