@@ -1,5 +1,7 @@
 /* Basic Style */
-/* Rule 1.1 is implemented in the css file*/
+/* * The rule '1.1 Indentation' rule from html-and-css is applied throughout the project: no tabs are used, all indents are whitespace
+   * The rule '1.2 Lower case spelling' from html-and-css is executed throughout the project: all HTML tags, attributes from value, selectors and their values are written in lower case
+*/
 .container {
   background-color: #f8f8f8;
   color: #333;
