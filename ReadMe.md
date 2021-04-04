@@ -11,6 +11,6 @@
 - The rule 2.4 type attribute from html-and-css is executed throughout the project: CSS-styles and JS-scripts are included without using this attribute.
 - The rule 3.1 Uniform naming style for selectors (classes / id) from html-and-css is implemented throughout the project: all selectors are named in the 
 same style, while either in accordance with BEM, or all words in lowercase and separated by a hyphen.
-Rule 3.2 Meaningful names of identifiers and classes from html-and-css are carried out throughout the project: all class and identifier names have either meaningful names in accordance with their functional meaning (! But NOT APPEARANCE!), Or a template name (also corresponding to the purpose of the element )
+- The rule 3.2 Meaningful names of identifiers and classes from html-and-css are carried out throughout the project: all class and identifier names have either meaningful names in accordance with their functional meaning (! But NOT APPEARANCE!), Or a template name (also corresponding to the purpose of the element )
 
-Rule 3.3 The conciseness of the names of identifiers and classes from html-and-css is carried out throughout the project: all the names of id and classes are clear, long enough to understand their purpose, and at the same time concise
+- The rule 3.3 The conciseness of the names of identifiers and classes from html-and-css is carried out throughout the project: all the names of id and classes are clear, long enough to understand their purpose, and at the same time concise
