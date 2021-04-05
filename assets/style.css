@@ -19,6 +19,8 @@
    * The rule 3.7 The semicolon after properties from html-and-css is applied throughout the project: after each CSS rule there is a semicolon
    * The rule 3.8 Separation of selectors and properties from html-and-css is performed throughout the project: each selector in the group listing of a CSS block is separated by a line break
    * The rule 1.1 The semantics of html-and-css-extended are respected: all html tags are used according to their purpose. At the same time, the use of div-elements is minimized, where possible they are replaced with semantic html5 elements
+   * The rule 1.2 Alternative for media from html-and-css-extended is respected: each media element (in a given img job) has an alt attribute with meaningful content corresponding to the content of the elements. At the same time, purely decorative images have an alt value with an empty value.
+
 
    */
 .container {
