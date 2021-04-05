@@ -18,6 +18,7 @@
    * The rule 3.6 Space after property names from html-and-css is applied throughout the project: CSS property values are separated by spaces after the colon
    * The rule 3.7 The semicolon after properties from html-and-css is applied throughout the project: after each CSS rule there is a semicolon
    * The rule 3.8 Separation of selectors and properties from html-and-css is performed throughout the project: each selector in the group listing of a CSS block is separated by a line break
+   * The rule 1.1 The semantics of html-and-css-extended are respected: all html tags are used according to their purpose. At the same time, the use of div-elements is minimized, where possible they are replaced with semantic html5 elements
 
    */
 .container {
