@@ -15,6 +15,7 @@ same style, while either in accordance with BEM, or all words in lowercase and s
 
 - The rule 3.3 The conciseness of the names of identifiers and classes from html-and-css is carried out throughout the project: all the names of id and classes are clear, long enough to understand their purpose, and at the same time concise
 Rule 3.4 Tag selectors from html-and-css are enforced throughout the project: tag selectors are not used (except for the deliberate reset of default styles)
+- The rule 3.4 Tag selectors from html-and-css are enforced throughout the project: tag selectors are not used (except for the deliberate reset of default styles)
 
 - The rule 3.5 Indentation in html-and-css blocks is applied throughout the project: the content of all blocks is indented
 
