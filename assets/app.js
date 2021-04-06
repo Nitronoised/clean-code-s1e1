@@ -46,8 +46,8 @@ var createNewTaskElement = function (taskString) {
     //deleteButton.innerText = "Delete";
     deleteButton.className = "controls__button_delete";
 
-    deleteButtonImg.src = '../assets/img/remove.svg';
-    deleteButtonImg.className = 'controls__button_img';
+    deleteButtonImg.src = "../assets/img/remove.svg";
+    deleteButtonImg.className = "controls__button_img";
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -85,7 +85,7 @@ var editTask = function () {
 
     var listItem = this.parentNode;
 
-    var editInput = listItem.querySelector('input[type=text]');
+    var editInput = listItem.querySelector("input[type=text]");
     var label = listItem.querySelector("label");
     var editBtn = listItem.querySelector(".controls__button_edit");
     var containsClass = listItem.classList.contains("controls__edit-mode");
@@ -98,7 +98,7 @@ var editTask = function () {
         editBtn.innerText = "Edit";
     } else {
         editInput.value = label.innerText;
-        editInput.className = 'controls__task-input'
+        editInput.className = "controls__task-input"
         editBtn.innerText = "Save";
     }
 
