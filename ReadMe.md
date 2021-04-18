@@ -30,3 +30,5 @@ Rule 3.4 Tag selectors from html-and-css are enforced throughout the project: ta
 - The rule 1.2 Alternative for media from html-and-css-extended is respected: each media element (in a given img job) has an alt attribute with meaningful content corresponding to the content of the elements. At the same time, purely decorative images have an alt value with an empty value.
 
 - The rule 2.1 of BEM from html-and-css-extended is observed: all classes are named according to BEM notation
+
+### All rules are achieved except the tag selectors rule.
