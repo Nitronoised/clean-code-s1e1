@@ -29,4 +29,3 @@ Rule 3.4 Tag selectors from html-and-css are enforced throughout the project: ta
 
 - The rule 2.1 of BEM from html-and-css-extended is observed: all classes are named according to BEM notation
 
-### All rules are achieved except the tag selectors rule.
